@@ -1,0 +1,54 @@
+<repast.simphony.chart.engine.DefaultXYChartOutputterDescriptor>
+  <name>Cost</name>
+  <outputterFactory class="repast.simphony.chart.wizard.XYChartMappingsStep$XYFactory"/>
+  <dataSetHandler>
+    <dataSets>
+      <string>SuppcoCostDS</string>
+    </dataSets>
+  </dataSetHandler>
+  <streamHandler>
+    <columns/>
+  </streamHandler>
+  <isBatchAction>false</isBatchAction>
+  <dataSetId class="string">SuppcoCostDS</dataSetId>
+  <showLegend>true</showLegend>
+  <multipleSeries>false</multipleSeries>
+  <xColumnName>CurrentDay</xColumnName>
+  <autoRangeX>true</autoRangeX>
+  <autoRangeY>true</autoRangeY>
+  <visibleXRange>100.0</visibleXRange>
+  <visibleYRange>0.0</visibleYRange>
+  <xMin>0.0</xMin>
+  <xMax>0.0</xMax>
+  <yMin>0.0</yMin>
+  <yMax>0.0</yMax>
+  <precisionValue>3</precisionValue>
+  <maxHistory>500</maxHistory>
+  <seriesType>LINE</seriesType>
+  <series>
+    <repast.simphony.chart.Series>
+      <seriesID>CumulativeCostSavingSeriesName</seriesID>
+      <valueColumn>CumulativeCostSaving</valueColumn>
+      <hashCode>215101519</hashCode>
+      <proxy>false</proxy>
+    </repast.simphony.chart.Series>
+    <repast.simphony.chart.Series>
+      <seriesID>CurrentCost_CSeriesName</seriesID>
+      <valueColumn>CurrentCost_C</valueColumn>
+      <hashCode>227976431</hashCode>
+      <proxy>false</proxy>
+    </repast.simphony.chart.Series>
+    <repast.simphony.chart.Series>
+      <seriesID>DayPredicatedCostSeriesName</seriesID>
+      <valueColumn>DayPredictedCost</valueColumn>
+      <hashCode>424029738</hashCode>
+      <proxy>false</proxy>
+    </repast.simphony.chart.Series>
+    <repast.simphony.chart.Series>
+      <seriesID>DayActualCostSeriesName</seriesID>
+      <valueColumn>DayActualCost</valueColumn>
+      <hashCode>-1154553443</hashCode>
+      <proxy>false</proxy>
+    </repast.simphony.chart.Series>
+  </series>
+</repast.simphony.chart.engine.DefaultXYChartOutputterDescriptor>
