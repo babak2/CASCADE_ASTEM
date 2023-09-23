@@ -1,5 +1,8 @@
-# Complex Adaptive System, Cognative Agents and Electricity System (CASCADE)
-# Agent-based Short Term Electricity Market (ASTEM)
+# Cascade (Complex Adaptive Systems, Cognative Agents and Distributed Energy) model
+
+incorporating:
+
+# ASTEM (Agent-based Short Term Electricity Market) model
 
 
 
