@@ -4,8 +4,17 @@ incorporating:
 
 # ASTEM (Agent-based Short Term Electricity Market) model
 
+This is an electricity system & market agent-based framework developed for the Complex Adaptive Systems, Cognitive Agents and Distributed Energy (CASCADE) project. 
+
+![CASCADE Model](./images/cascade-model.png)
+
+It mainly consists of the following integrants:
+- Supply and Demand 
+- Energy market 
+- Engineering components 
 
 
+![CASCADE Model flowchart](./images/cascade-model-flowchart.png)
 
 
 ## Installation
@@ -22,7 +31,13 @@ Change your working directory to CASCADE_ASTEM:
 
 ## Program Requirements
 
+The CASCADE model was developed using Repast Simphony 2.0 beta version along with the following external programs/libraries: 
 
+1)	Repast Simphony 2.0 beta
+2)	commons-math-2.2.jar
+3)	commons-mathforsimplex-2.2.jar
+4)  flanagan.jar
+5)  RandomHelper.class
 
 
 # Usage
