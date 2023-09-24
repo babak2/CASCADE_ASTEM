@@ -2,17 +2,8 @@
 *.log*
 bin/
 temp/
-misc/
 Repast.settings
-*.orig
-*.csv
-*.xls
-*.png
-*.txt
-*.tab
-*.pdf
 !cascade.rs/*
 !dataFiles/*
-java*
 *ModelOutput*
 DebugOutput*
