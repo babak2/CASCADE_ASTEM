@@ -16,6 +16,10 @@ It mainly consists of the following integrants:
 
 ![CASCADE Model flowchart](./images/cascade-model-flowchart.png)
 
+The ASTEM (Agent-based Short Term Electricity Market) model is integrated in the CASCADE model and consist of the following components: 
+
+![ASTEM energy market model components](./images/agents-market-interaction.png)
+
 
 ## Installation
 
@@ -29,11 +33,11 @@ Change your working directory to CASCADE_ASTEM:
 
 `cd CASCADE_ASTEM`
 
-## Program Requirements
+## Required programs
 
-The CASCADE model was developed using Repast Simphony 2.0 beta version along with the following external programs/libraries: 
+The CASCADE model was developed using Repast Simphony 2.0 version along with the following external programs/libraries: 
 
-1)	Repast Simphony 2.0 beta
+1)	Repast Simphony 2.0
 2)	commons-math-2.2.jar
 3)	commons-mathforsimplex-2.2.jar
 4)  flanagan.jar
