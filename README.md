@@ -1,4 +1,4 @@
-# Cascade (Complex Adaptive Systems, Cognative Agents and Distributed Energy) model
+# CASCADE (Complex Adaptive Systems, Cognitive Agents and Distributed Energy) model
 
 incorporating:
 
@@ -44,16 +44,9 @@ The CASCADE model was developed using Repast Simphony 2.0 version along with the
 5)  RandomHelper.class
 
 
-# Usage
-
-
-
 ## Input files: 
 
-
-
-## Output files: 
-
+Input files can be found in the `dataFiles` directory. These include the typical household demand baseline with different numbers of occupants, and entire one-year weather profiles, among other files.
 
 
 ## License
